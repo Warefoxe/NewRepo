@@ -1,5 +1,9 @@
-#include<iostream>
+// ENG
+//The program throws two cubes until two six.How many attempts did the program do ?
+// UKR
+//Програма кидає два кубики, доки  не випаде дві шістки.Скільки спроб зробила програма ?
 
+#include<iostream>
 #include <time.h>
 
 using namespace std;
@@ -13,7 +17,7 @@ int main()
 	int c = 0;
 	{
 
-		for (; !((cube1 == 6) || (cube2 == 6)); )
+		for (; !((cube1 == 6) && (cube2 == 6)); )
 		{
 			++c;
 			cube1 = 1 + rand() % 6;
@@ -23,7 +27,7 @@ int main()
 		}
 
 			
-		cout << "Випала 6 на спробi #" << c << endl;
+		cout << "Випало дві шістки на спробi #" << c << endl;
 		system("pause");
 
 			return 0;
