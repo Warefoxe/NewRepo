@@ -23,11 +23,11 @@ int main()
 			cube1 = 1 + rand() % 6;
 			cube2 = 1 + rand() % 6;
 
-			cout << "#" << c << " спроба :" << " Куб#1 = " << cube1 << " i" << " Куб#2 = " << cube2 << endl;
+			cout << "#" << c << " attempt :" << " Cube#1 = " << cube1 << " i" << " Cube#2 = " << cube2 << endl;
 		}
 
 			
-		cout << "Випало дві шістки на спробi #" << c << endl;
+		cout << "There were two sixs in an attempt #" << c << endl;
 		system("pause");
 
 			return 0;
